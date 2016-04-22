@@ -1,0 +1,45 @@
+/*
+    all java code
+*/
+
+class Student{
+    private String name;
+    private int age;
+    
+    public Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+    
+    public void setName(String name){
+        this.name = mame;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+    public String getName(){
+        return name;
+    }
+    public int getAge(){
+        return int;
+    }
+    
+    public void show(){
+        System.out.println(name+age);
+    }
+}
+
+class StudentDemo{
+    public static void main(String[] args){
+        Student s = new Student();
+        s.setName("Jason");
+        s.setAge(18);
+        s.show();
+        
+        System.out.println("-------------");
+        
+        Student ss = new Student("Lyear",20);
+        ss.show();
+        
+    }
+}
